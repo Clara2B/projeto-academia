@@ -111,10 +111,10 @@ A implementação deste sistema ERP justifica-se pela necessidade de:
 - **RN05 - Bloqueio Diário de Acesso:** Em caso de inadimplência ou demissão, o acesso é suspenso no mesmo dia até as 23:59.
 - **RN06 - Restrição a Diárias:** Bloqueio de venda de diárias para usuários com débitos em aberto.
 - **RN07 - Tabela Base de Planos:**
-  - **Diário:** Cobrança avulsa fixada.
-  - **Mensal:** R\$ 110,00/mês.
-  - **Trimestral:** R\$ 104,50/mês (5% desc. base + 2% adiantamento).
-  - **Anual:** R\$ 99,00/mês (10% desc. base + 4% adiantamento).
+  - *Diário:* Cobrança avulsa fixada.
+  - *Mensal:* R$ 120,00/mês.
+  - *Trimestral:* R$ 108,00(10% desc. base).
+Anual: R$ 96,00/mês (20% desc. base).
 - **RN08 - Vínculo Funcional:** Funcionários devem obrigatoriamente ter cargo e departamento.
 - **RN09 - Manutenção de Período Pago:** Cancelamentos interrompem cobranças futuras sem revogar o período vigente já quitado.
 - **RN10 - Acesso Restrito à Agenda:** Visibilidade de ajuste da grade restrita a *Professores* e *Administradores*.
