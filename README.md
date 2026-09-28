@@ -14,10 +14,9 @@ Sistema Integrado de Gestão Empresarial (ERP) desenvolvido para a **Hold Fit At
   - [5.1 Requisitos Funcionais (RF)](#51-requisitos-funcionais-rf)
   - [5.2 Regras de Negócio (RN)](#52-regras-de-negócio-rn)
 - [6. Restrições e Políticas Organizacionais](#6-restrições-e-políticas-organizacionais)
-- [7. Fluxogramas dos Processos](#7-fluxogramas-dos-processos)
-- [8. Modelagem de Dados](#8-modelagem-de-dados)
-  - [8.1 Entidades e Atributos](#81-entidades-e-atributos)
-  - [8.2 Relacionamentos e Cardinalidade](#82-relacionamentos-e-cardinalidade)
+- [7. Modelagem de Dados](#8-modelagem-de-dados)
+  - [7.1 Entidades e Atributos](#81-entidades-e-atributos)
+  - [7.2 Relacionamentos e Cardinalidade](#82-relacionamentos-e-cardinalidade)
 
 ---
 
