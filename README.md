@@ -151,44 +151,9 @@ A implementação deste sistema ERP justifica-se pela necessidade de:
 
 ---
 
-## 7. Fluxogramas dos Processos
+## 7. Modelagem de Dados
 
-```mermaid
-flowchart TD
-    %% Fluxo do Aluno
-    subgraph Fluxo_Aluno [Fluxo do Aluno]
-        A1([Início]) --> A2[Aluno se cadastra na academia]
-        A2 --> A3[Aluno escolhe o plano]
-        A3 --> A4{Tem vaga/disponibilidade na aula?}
-        A4 -- Sim --> A5[Aluno realiza a aula]
-        A4 -- Não --> A6[Aluno não pode realizar a aula]
-    end
-
-    %% Fluxo do Professor
-    subgraph Fluxo_Professor [Fluxo do Professor]
-        P1([Início]) --> P2{Possui CREF válido?}
-        P2 -- Não --> P3[Cadastro Recusado / Não pode ser professor]
-        P2 -- Sim --> P4[Cadastro realizado como Professor]
-        P4 --> P5[Assume responsabilidade por uma modalidade]
-        P5 --> P6[Abre e gerencia turmas com alunos vinculados]
-    end
-
-    %% Fluxo de Contas
-    subgraph Fluxo_Contas [Fluxo Financeiro]
-        C1([Início Financeiro]) --> C2{Tipo de Lançamento}
-        C2 -- Contas a Pagar --> C3[Despesas, Maquinário e Folha]
-        C2 -- Contas a Receber --> C4[Mensalidades e Diárias dos Alunos]
-        C3 --> C5[Cálculo de Balanço: Receber - Pagar]
-        C4 --> C5
-        C5 --> C6[Saldo Final do Caixa]
-    end
-```
-
----
-
-## 8. Modelagem de Dados
-
-### 8.1 Entidades e Atributos
+### 7.1 Entidades e Atributos
 
 | Entidade | Tipo | PK / FK | Atributos |
 | :--- | :--- | :--- | :--- |
