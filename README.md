@@ -120,6 +120,20 @@ A implementação deste sistema ERP justifica-se pela necessidade de:
 - **RN09 - Manutenção de Período Pago:** Cancelamentos interrompem cobranças futuras sem revogar o período vigente já quitado.
 - **RN10 - Acesso Restrito à Agenda:** Visibilidade de ajuste da grade restrita a *Professores* e *Administradores*.
 
+### 5.3 Requisito não Funcional (RNF)
+- **RNF01 - Restrição de funcionalidade:** O sistema deverá restringir o acesso às funcionalidades conforme o perfil de usuário, como administrador, professor e demais perfis autorizados.
+- **RNF02 - Proteção aos Dados:** Os dados pessoais tratados pelo sistema deverão possuir mecanismos de proteção e controle de acesso compatíveis com a LGPD.
+- **RNF03 - Liberação de Catraca:** A operação de liberação da catraca deverá apresentar tempo de resposta inferior a 1 segundo em condições normais de operação.
+- **RNF04 - Histórico das Operações:** O sistema deverá manter histórico/auditoria das operações financeiras relevantes, incluindo cancelamentos e estornos.
+- **RNF05 - Chaves Estrangeiras:** As tabelas relacionadas do banco de dados deverão utilizar chaves estrangeiras com regras explícitas de atualização e deleção, evitando exclusões acidentais.
+- **RNF06 - Autenticação para Acesso:** O sistema deverá exigir autenticação para acesso às funcionalidades restritas.
+- **RNF07 - Proteção de Credenciais:** O sistema deverá proteger credenciais de acesso, armazenando-as de forma segura e não em texto puro.
+- **RNF08 - Cópias de Segurança:** O sistema deverá realizar cópias de segurança periódicas dos dados, com procedimento definido de restauração.
+- **RNF09 - Preservação da Integridade dos Dados:** O sistema deverá preservar a integridade e consistência dos dados durante operações de cadastro, alteração, pagamento e cancelamento.
+- **RNF10 - Mensagens de Erro:** O sistema deverá disponibilizar mensagens claras de erro e confirmação para operações realizadas pelos usuários.
+- **RNF11 - Manutenção do Banco de Dados:** O sistema deverá permitir manutenção do banco de dados sem comprometer a integridade dos registros existentes.
+- **RNF12 - Acesso de Informações:** As informações financeiras e pessoais deverão ser acessíveis somente a usuários com autorização compatível com sua função.
+
 ---
 
 ## 6. Restrições e Políticas Organizacionais
