@@ -174,7 +174,7 @@ A implementação deste sistema ERP justifica-se pela necessidade de:
 | **CONTAS A RECEBER**| Fraca | `recebimento_id` (PK)| `dt_pagamento`, `dt_vencimento`, `tipo` |
 | **PLANOS** | Associativa | `rgm` (FK), `modalidade_id` (FK) | `dt_i`, `dt_f`, `valor`, `nome`, `descricao`, `desconto` |
 
-### 8.2 Relacionamentos e Cardinalidade
+### 7.2 Relacionamentos e Cardinalidade
 
 ```
 [EMPRESA] -------- (1:N) --------> [CONTAS]
