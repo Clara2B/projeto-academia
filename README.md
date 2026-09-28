@@ -52,25 +52,25 @@ A implementação deste sistema ERP justifica-se pela necessidade de:
 * **Fluxo:** Cadastro de dados pessoais e vinculação a planos e turmas.
 * **Resultado:** Aluno cadastrado e apto a utilizar a academia.
 
-### 0.3.2 Contratação e Alocação de Funcionário
+### 3.2 Contratação e Alocação de Funcionário
 * **Atores:** Gestão e Funcionário.
 * **Gatilho:** Necessidade de preenchimento de vaga.
 * **Fluxo:** Validação de documentos, vinculação a cargo/departamento e concessão de credenciais.
 * **Resultado:** Funcionário integrado e operacional no sistema.
 
-### 0.3.3 Gestão de Turmas e Aulas (Corpo Técnico)
+### 3.3 Gestão de Turmas e Aulas (Corpo Técnico)
 * **Atores:** Professor (Mentor), Alunos e Operacional.
 * **Gatilho:** Validação do CREF e definição da grade horária.
 * **Fluxo:** Abertura da turma, alocação do professor e inclusão dos alunos.
 * **Resultado:** Turmas estruturadas sob supervisão técnica.
 
-### 0.3.4 Contas a Pagar (Despesas e Maquinário)
+### 3.4 Contas a Pagar (Despesas e Maquinário)
 * **Atores:** Setor Financeiro e Fornecedores.
 * **Gatilho:** Aquisição de equipamentos, manutenções ou contas operacionais.
 * **Fluxo:** Lançamento de obrigações, validação de recebimento e pagamento.
 * **Resultado:** Fornecedores quitados e equipamentos mantidos em operação.
 
-### 0.3.5 Contas a Receber (Mensalidades)
+### 3.5 Contas a Receber (Mensalidades)
 * **Atores:** Aluno e Setor Financeiro.
 * **Gatilho:** Vencimento de plano ou mensalidade.
 * **Fluxo:** Pagamento e baixa financeira do título no sistema.
